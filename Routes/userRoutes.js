@@ -7,6 +7,6 @@ router.post('/signup', signUp);
 
 // Route for user login
 router.post('/login', login);
-router.get('/getUserDetails', getUserDetails);
+
 
 module.exports = router;
